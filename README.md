@@ -14,6 +14,7 @@ Our team applied the core OOP principles learned in the course:
 Task 2: Self-study
 
 Video Demo: [Paste link here]
-GitHub Repository: [Paste this GitHub link here]
+GitHub Repository: https://github.com/yuyhannah0714-create/COMP2090_Course_Project <img width="432" height="14" alt="image" src="https://github.com/user-attachments/assets/35b4eabd-f17d-411b-8b00-b3991bed9ab9" />
+
 Contribution Statement
 This project was completed through the joint efforts of both team members. We collaborated on the system design, coding implementation, and documentation.
