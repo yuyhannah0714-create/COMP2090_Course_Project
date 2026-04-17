@@ -13,7 +13,7 @@ Our team applied the core OOP principles learned in the course:
 3.Modularity: The project is organized into modular files (main.py, account.py, and bank_system.py) for better maintainability.
 Task 2: Self-study
 
-Video Demo: [Paste link here]
+Video Demo: https://zoom.us/clips/share/keR7X4DATeyot_nkdlA1Qg
 GitHub Repository: https://github.com/yuyhannah0714-create/COMP2090_Course_Project <img width="432" height="14" alt="image" src="https://github.com/user-attachments/assets/35b4eabd-f17d-411b-8b00-b3991bed9ab9" />
 
 Contribution Statement
