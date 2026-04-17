@@ -1,30 +1,33 @@
 class Account:
     def __init__(self, accid, balance):
         self.accid = accid
-        self.__balance = balance 
+        self._balance = balance
 
     def deposit(self, amount):
-    if amount <= 0:
-        return False
-    self.__balance += amount
-    return True
+        if amount <= 0:
+            return False
+        self._balance += amount
+        return True
 
-  def withdraw(self, amount):
-    if amount <= 0:
-        return False
-    if amount > self.__balance:
-        return False
+    def withdraw(self, amount):
+        if amount <= 0:
+            return False
+        if amount > self._balance:
+            return False
 
-    self.__balance -= amount
-    return True
+        self._balance -= amount
+        return True
 
     def get_balance(self):
-        return self.__balance
+        return self._balance
+
+
 class SavingsAccount(Account):
     def __init__(self, accid, balance, interest_rate=0.01):
         super().__init__(accid, balance)
         self.interest_rate = interest_rate
 
     def apply_interest(self):
-    interest = self.__balance * self.interest_rate
-    self.__balance += interest
+        interest = self._balance * self.interest_rate
+        self._balance += interest
+        return interest
